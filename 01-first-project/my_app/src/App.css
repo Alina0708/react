@@ -1,0 +1,42 @@
+.app-wrapper{
+    display:grid;
+
+    grid-template-areas: 
+    "header header"
+    "nav content";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 15px;
+
+}
+
+.header{
+grid-area: header;
+margin: 15px;
+margin-bottom: 0 !important;
+background-color:rgb(65, 199, 121);
+}
+.header img{
+height: 90px;
+width:110px;
+}
+
+.nav{
+grid-area:nav;
+margin-left: 15px;
+background-color:rgb(65, 199, 121);
+text-align: center;
+color: cornsilk;
+font-family:fantasy;
+font-size:45px;
+}
+
+.content{
+grid-area:content;
+margin-right: 15px;
+background-color:rgb(65, 179, 199);
+}
+
+.content img{
+    max-width: 100%;
+}
