@@ -1,0 +1,15 @@
+
+
+.content{
+  grid-area:content;
+  margin-right: 15px;
+  background-color:rgb(65, 179, 199);
+  }
+  
+  .content img{
+      max-width: 100%;
+  }
+
+  .avatar img{
+    width:350px;
+  }
