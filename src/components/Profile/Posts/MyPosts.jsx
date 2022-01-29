@@ -6,9 +6,8 @@ const MyPosts = () =>{
   return(       
      <div>My posts
     <div div className={s.posts}>new post</div>
-    <Post />
-    <Post />
-    <Post />
+    <Post message='Do you love your city?' likeCount='3'/>
+    <Post message='Have you visited all the sights in the city?' likeCount='5'/>
   </div>);
 }
 

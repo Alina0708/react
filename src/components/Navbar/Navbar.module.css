@@ -1,16 +1,20 @@
-.nav{
-    grid-area:nav;
-    margin-left: 15px;
-    background-color:rgb(65, 199, 121);
-   
-    }
+.nav {
+  grid-area: nav;
+  margin-left: 15px;
+  background-color: rgb(65, 199, 121);
+}
 
-.item{
-    text-align: center;
-    color: cornsilk;
-    font-family:fantasy;
-    font-size:45px;
-    }
-.item.active{
-    color:brown;
-}    
+.item {
+  text-align: center;
+  color: cornsilk;
+  font-family: fantasy;
+  font-size: 45px;
+}
+
+.item a {
+  text-decoration: none;
+}
+
+.item.active {
+  color: brown;
+}
