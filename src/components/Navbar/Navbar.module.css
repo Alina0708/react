@@ -13,8 +13,8 @@
 
 .item a {
   text-decoration: none;
+  color:cornsilk;
 }
-
-.item.active {
-  color: brown;
+.item a.active {
+  color: rgb(8, 98, 184);
 }
